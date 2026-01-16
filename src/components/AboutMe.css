@@ -1,0 +1,165 @@
+body {
+  background: var(--bg);
+}
+
+.content-div {
+  display: flex;
+  width: 100%;
+  height: 87vh;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.c-1 {
+  width: 45%;
+  height: 100%;
+  background: var(--p1);
+  box-shadow: var(--shadow-1);
+  position: relative;
+}
+
+.profile-card-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-card {
+  width: 280px;
+  background: var(--w1);
+  border-radius: 8px;
+  padding: 40px 20px 20px;
+  box-shadow: var(--shadow-2);
+  text-align: center;
+}
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  background: url("../assets/kuromi.avif");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: var(--shadow-1);
+}
+
+.profile-name {
+  font-size: 26px;
+  margin-top: 20px;
+  font-weight: 700;
+  color: var(--fc1);
+}
+
+.profile-divider {
+  width: 40px;
+  height: 3px;
+  background: var(--p1);
+  margin: 12px auto;
+  border-radius: 10px;
+}
+
+.profile-role {
+  letter-spacing: 4px;
+  font-size: 12px;
+  margin-bottom: 30px;
+  color: var(--fc1);
+}
+
+.social-row {
+  background: var(--bg);
+  padding: 15px 0;
+  margin-top: 15px;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 18px;
+  color: var(--fc1);
+}
+
+.social-row > a {
+  color: var(--fc1);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.social-row > a:hover {
+  color: var(--p1);
+  transition: var(--transition);
+}
+
+.c-2 {
+  width: 53.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 14%;
+}
+
+.c-2 h1 {
+  font-size: 70px;
+  margin: 0;
+  font-weight: 800;
+  color: var(--fc1);
+}
+
+.c-2 .sub {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: var(--fc1);
+}
+
+.btn-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn.resume {
+  background: var(--p1);
+  color: var(--bg);
+  transition: var(--transition);
+}
+
+.btn.resume:hover {
+  background: transparent;
+  border-color: var(--w1);
+  color: var(--p1);
+  transition: var(--transition);
+}
+
+.btn.projects {
+  background: transparent;
+  border: 2px solid var(--fc1);
+  color: var(--fc1);
+  transition: var(--transition);
+}
+
+.btn.projects:hover {
+  background: var(--p1);
+  color: var(--bg);
+  border-color: transparent;
+  transition: var(--transition);
+}
+
+.description {
+  font-size: 15px;
+  color: var(--fc1);
+  line-height: 1.8;
+  max-width: 500px;
+}

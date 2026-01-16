@@ -1,0 +1,1419 @@
+@media (min-width: 1024px) and (max-width: 1336px) {
+  .contact-headline h1 {
+    font-size: 28px;
+  }
+
+  .encourage-text {
+    padding: 0 23%;
+    font-size: 13px;
+  }
+
+  .contact-div {
+    width: 350px;
+  }
+
+  .contact-div > .sign i {
+    font-size: 20px;
+  }
+
+  .contact-div p {
+    font-size: 13px;
+  }
+
+  .message-box .message h2 {
+    font-size: 18px;
+  }
+
+  form .row {
+    gap: 60px;
+  }
+
+  form label {
+    font-size: 11px;
+  }
+
+  form input,
+  form textarea {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  form button {
+    font-size: 11px;
+    padding: 5px 0;
+    width: 190px;
+    height: 35px;
+    margin-top: 10px;
+  }
+
+  .follow-me h2 {
+    font-size: 15px;
+    padding-top: 22px;
+  }
+
+  .link-box {
+    height: 45px;
+    width: 45px;
+  }
+
+  .link-box i {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1260px) {
+  .c-2 h1 {
+    font-size: 55px;
+  }
+
+  .c-2 .sub {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+  }
+
+  .btn {
+    padding: 10px 30px;
+    font-size: 11.5px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .profile-card {
+    width: 265px;
+  }
+
+  .profile-photo {
+    width: 125px;
+    height: 125px;
+  }
+
+  .profile-name {
+    font-size: 22px;
+  }
+
+  .profile-role {
+    font-size: 11px;
+    margin-bottom: 25px;
+  }
+
+  .social-row {
+    font-size: 16px;
+  }
+
+  .pjd-1 h2 {
+    font-size: 20px;
+  }
+
+  .pjd-2 .project-box {
+    width: 500px;
+    height: 225px;
+  }
+
+  .project-name .title {
+    font-size: 15px;
+  }
+
+  .project-name .role {
+    font-size: 13px;
+  }
+
+  .project-content {
+    font-size: 13px;
+    padding: 12px;
+    max-width: 280px;
+  }
+
+  .box h1 {
+    font-size: 25px;
+    padding: 13px 0;
+  }
+
+  .box .box-title {
+    font-size: 15px;
+    padding-bottom: 22px;
+  }
+
+  .box-badges > div {
+    padding: 23px 0;
+    font-size: 16px;
+  }
+
+  .contact-headline h1 {
+    font-size: 26px;
+  }
+
+  .encourage-text {
+    padding: 0 21%;
+    font-size: 12px;
+  }
+
+  .contact-div {
+    width: 320px;
+  }
+
+  .contact-div > .sign i {
+    font-size: 19px;
+  }
+
+  .contact-div p {
+    font-size: 12px;
+  }
+
+  .message-box .message h2 {
+    font-size: 17px;
+  }
+
+  form .field {
+    margin-top: 27px;
+  }
+
+  form label {
+    font-size: 10px;
+  }
+
+  form input,
+  form textarea {
+    padding: 10px;
+    font-size: 12.5px;
+  }
+
+  .follow-me h2 {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+
+  .link-box i {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1180px) {
+  .c-2 {
+    padding-left: 15%;
+  }
+
+  .c-2 h1 {
+    font-size: 50px;
+  }
+
+  .c-2 .sub {
+    font-size: 17px;
+  }
+
+  .btn {
+    padding: 10px 25px;
+    font-size: 10px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .profile-card {
+    width: 245px;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .profile-role {
+    font-size: 10px;
+  }
+
+  .social-row {
+    font-size: 15px;
+  }
+
+  .pjd-1 h2 {
+    font-size: 19px;
+  }
+
+  .pjd-2 .project-box {
+    width: 490px;
+    height: 215px;
+  }
+
+  .project-name .title {
+    font-size: 14px;
+  }
+
+  .project-name .role {
+    font-size: 12px;
+  }
+
+  .project-content {
+    font-size: 12px;
+    padding: 12px;
+    max-width: 275px;
+  }
+
+  .project-name {
+    padding: 0 0 0 13px;
+  }
+
+  .box h1 {
+    font-size: 24px;
+  }
+
+  .box .box-title {
+    font-size: 14px;
+    padding-bottom: 21px;
+  }
+
+  .box-badges > div {
+    padding: 23px 0;
+    font-size: 15px;
+  }
+
+  .contact-headline h1 {
+    font-size: 24px;
+  }
+
+  .encourage-text {
+    padding: 0 15%;
+  }
+
+  .contact-div {
+    width: 300px;
+    height: 50px;
+  }
+
+  .contact-div > span {
+    height: 50px;
+  }
+
+  .contact-div > .sign i {
+    font-size: 18px;
+  }
+
+  .contact-div p {
+    font-size: 11.5px;
+  }
+
+  .message-box .message h2 {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  form .field {
+    margin-top: 25px;
+  }
+
+  form input,
+  form textarea {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .follow-me h2 {
+    font-size: 13px;
+  }
+
+  .link-box {
+    height: 43px;
+    width: 43px;
+  }
+
+  .link-box i {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1076px) {
+  .contact-div {
+    width: 280px;
+    height: 45px;
+  }
+
+  .contact-div > span {
+    height: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .profile-card-wrapper {
+    position: relative;
+    top: 11.5%;
+    left: unset;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  .c-2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .c-2 h1 {
+    font-size: 40px;
+  }
+
+  .c-2 .sub {
+    font-size: 17px;
+  }
+
+  .btn {
+    padding: 10px 25px;
+    font-size: 10px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .profile-card {
+    width: 245px;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .profile-role {
+    font-size: 10px;
+  }
+
+  .social-row {
+    font-size: 15px;
+  }
+
+  .pjd-1 h2 {
+    font-size: 19px;
+  }
+
+  .pjd-2 .project-box {
+    width: 490px;
+    height: 215px;
+  }
+
+  .project-name .title {
+    font-size: 14px;
+  }
+
+  .project-name .role {
+    font-size: 12px;
+  }
+
+  .project-content {
+    font-size: 12px;
+    padding: 12px;
+    max-width: 275px;
+  }
+
+  .project-name {
+    padding: 0 0 0 13px;
+  }
+
+  .box h1 {
+    font-size: 23px;
+    padding: 13px 0;
+  }
+
+  .box .box-title {
+    font-size: 13px;
+    padding-bottom: 20px;
+  }
+
+  .box-badges > div {
+    padding: 22px 0;
+    font-size: 14px;
+  }
+
+  .contact-headline h1 {
+    font-size: 22px;
+  }
+
+  .encourage-text {
+    padding: 0 17%;
+    font-size: 11px;
+  }
+
+  .contact-div {
+    width: 265px;
+    height: 45px;
+  }
+
+  .contact-div > span {
+    margin-right: 15px;
+    height: 45px;
+  }
+
+  .contact-div > .sign i {
+    font-size: 17px;
+  }
+
+  .contact-div p {
+    font-size: 10.8px;
+  }
+
+  .message-box .message h2 {
+    font-size: 15px;
+  }
+
+  form .row {
+    gap: 50px;
+  }
+
+  form .field {
+    margin-top: 20px;
+  }
+
+  form label {
+    font-size: 10px;
+  }
+
+  form input,
+  form textarea {
+    padding: 8px;
+    font-size: 11.8px;
+  }
+
+  form button {
+    font-size: 11px;
+    padding: 3px 0;
+    width: 170px;
+    height: 35px;
+    margin-top: 10px;
+  }
+
+  .follow-me h2 {
+    font-size: 12.5px;
+  }
+
+  .follow-links-box {
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .link-box {
+    height: 40px;
+    width: 40px;
+  }
+
+  .link-box i {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  nav {
+    height: 60px;
+  }
+
+  :is(.sm-nav, nav) > .nav-links-div > div {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
+
+  .name-role span {
+    font-size: 16px;
+  }
+
+  .name-role {
+    font-size: 14px;
+  }
+
+  .profile-card {
+    width: 225px;
+  }
+
+  .profile-photo {
+    width: 115px;
+    height: 115px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .profile-role {
+    font-size: 10px;
+  }
+
+  .social-row {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 955px) {
+  .contact-div {
+    width: 245px;
+    height: 43px;
+  }
+
+  .encourage-text {
+    padding: 0 15%;
+  }
+
+  .contact-div > .sign {
+    padding: 0 12px;
+  }
+
+  .contact-div > span {
+    margin-right: 12px;
+    height: 43px;
+  }
+
+  :is(.contact-div, .contact-follow-div) p {
+    font-size: 10px;
+  }
+
+  .link-box {
+    height: 40px;
+    width: 40px;
+  }
+
+  .link-box i {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 890px) {
+  .contact-headline h1 {
+    font-size: 20px;
+  }
+
+  .encourage-text {
+    padding: 0 17%;
+    font-size: 10.5px;
+  }
+
+  :is(.contact-div, .contact-follow-div) {
+    width: 230px;
+    height: 40px;
+  }
+
+  :is(.contact-div, .contact-follow-div) > .sign {
+    padding: 0 11px;
+  }
+
+  :is(.contact-div, .contact-follow-div) > span {
+    margin-right: 11px;
+    height: 40px;
+  }
+
+  :is(.contact-div, .contact-follow-div) > .sign i {
+    font-size: 16px;
+  }
+
+  .message-box .message h2 {
+    font-size: 14px;
+  }
+
+  form .field {
+    margin-top: 18px;
+  }
+
+  form label {
+    font-size: 9.5px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 11px;
+  }
+
+  form button {
+    font-size: 10px;
+    padding: 3px 0;
+    width: 150px;
+    height: 35px;
+    margin-top: 8px;
+  }
+
+  .follow-me h2 {
+    font-size: 12px;
+  }
+
+  .follow-links-box {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .link-box {
+    height: 38px;
+    width: 38px;
+  }
+
+  .link-box i {
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 824px) {
+  .contact-headline h1 {
+    font-size: 18.5px;
+  }
+
+  .encourage-text {
+    padding: 0 10%;
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+
+  :is(.contact-div, .contact-follow-div) {
+    width: 250px;
+    height: 40px;
+  }
+
+  :is(.contact-div, .contact-follow-div) > span {
+    width: 1.5px;
+  }
+
+  .contact-details-box {
+    height: 450px;
+    flex-direction: row-reverse;
+    margin: none;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .contact-follow-div {
+    display: flex;
+  }
+
+  .contact-box {
+    margin: 10px 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    overflow-y: scroll;
+  }
+
+  .contact-box::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .contact-box > span {
+    display: none;
+  }
+
+  .message-box .message h2 {
+    font-size: 14px;
+    padding-top: 15px;
+  }
+
+  .message-box {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .message-box span {
+    display: none;
+  }
+
+  .follow-me {
+    display: none;
+  }
+
+  form button {
+    font-size: 10px;
+    padding: 3px 0;
+    width: 130px;
+    height: 32px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sm-nav {
+    display: flex;
+  }
+
+  nav > .nav-links-div {
+    display: none;
+  }
+
+  .sm-nav > .nav-links-div {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sm-nav > .nav-links-div > div {
+    font-size: 11px;
+    margin: 5px;
+  }
+
+  .name-role span {
+    font-size: 18px;
+  }
+
+  .content-div {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 20px 0 0 0;
+    gap: 25px;
+  }
+
+  .c-1,
+  .c-2 {
+    width: 100%;
+  }
+
+  .c-1 {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .profile-card-wrapper {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .profile-card {
+    width: 260px;
+    padding: 30px 20px;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 22px;
+  }
+
+  .profile-role {
+    font-size: 11px;
+    margin-bottom: 25px;
+  }
+
+  .social-row {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+
+  .c-2 {
+    padding: 0 20px;
+  }
+
+  .c-2 h1 {
+    font-size: 36px;
+  }
+
+  .c-2 .sub {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  .btn-group {
+    gap: 12px;
+  }
+
+  .btn {
+    padding: 10px 25px;
+    font-size: 11px;
+  }
+
+  .description {
+    max-width: 95%;
+    font-size: 14px;
+  }
+
+  .pjd-1 h2 {
+    font-size: 17px;
+  }
+
+  .pjd-2 .project-box {
+    width: 470px;
+    height: 215px;
+  }
+
+  .project-name .title {
+    font-size: 14px;
+  }
+
+  .project-name .role {
+    font-size: 12px;
+  }
+
+  .project-content {
+    font-size: 11px;
+    padding: 12px;
+    max-width: 265px;
+  }
+
+  .project-name {
+    padding: 0 0 0 12px;
+  }
+
+  .box h1 {
+    font-size: 21px;
+    padding: 11px 0;
+  }
+
+  .box .box-title {
+    font-size: 13px;
+    padding-bottom: 18px;
+  }
+
+  .box-badges > div {
+    padding: 19px 0;
+    font-size: 13px;
+  }
+
+  .box .box-badges {
+    margin-left: 30%;
+  }
+
+  .encourage-text {
+    font-size: 11px;
+    margin: 10px 0 10px 0;
+  }
+
+  .contact-box {
+    display: none;
+  }
+
+  .message-box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .message-box .message {
+    width: 90%;
+    padding: 0 38px 15px 20px;
+  }
+
+  :is(.contact-div, .contact-follow-div) {
+    width: 230px;
+    height: 40px;
+  }
+
+  form input,
+  form textarea {
+    padding: 12px 10px;
+    font-size: 11px;
+  }
+
+  form .field {
+    margin-top: 20px;
+  }
+
+  form label {
+    font-size: 10px;
+  }
+
+  form button {
+    font-size: 11px;
+    padding: 3px 0;
+    width: 160px;
+    height: 35px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 546px) {
+  .name-role span {
+    font-size: 14px;
+  }
+
+  .name-role {
+    font-size: 12px;
+  }
+
+  .sm-nav > .nav-links-div > div {
+    font-size: 11px;
+  }
+
+  .profile-card {
+    width: 230px;
+    padding: 20px;
+  }
+
+  .profile-photo {
+    width: 110px;
+    height: 110px;
+  }
+
+  .profile-name {
+    font-size: 18px;
+  }
+
+  .profile-role {
+    font-size: 10px;
+  }
+
+  .social-row {
+    font-size: 14px;
+  }
+
+  .c-2 h1 {
+    font-size: 34px;
+  }
+
+  .c-2 .sub {
+    font-size: 15px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+
+  .description {
+    max-width: 95%;
+    font-size: 13px;
+  }
+
+  .pjd-1 h2 {
+    font-size: 15px;
+  }
+
+  .pjd-2 .project-box {
+    width: 440px;
+    height: 200px;
+  }
+
+  .project-name .title {
+    font-size: 12px;
+  }
+
+  .project-name .role {
+    font-size: 10px;
+  }
+
+  .project-content {
+    font-size: 10px;
+    padding: 10px;
+    max-width: 250px;
+  }
+
+  .project-name {
+    padding: 0 0 0 11px;
+  }
+
+  .box h1 {
+    font-size: 19px;
+    padding: 10px 0;
+  }
+
+  .box .box-title {
+    font-size: 12px;
+    padding-bottom: 16px;
+  }
+
+  .box-badges > div {
+    padding: 17px 0;
+    font-size: 12px;
+  }
+
+  .box .box-badges {
+    margin-left: 20%;
+  }
+
+  .contact-headline h1 {
+    font-size: 17px;
+  }
+
+  .encourage-text {
+    font-size: 10px;
+    margin: 10px 0 10px 0;
+  }
+
+  form input,
+  form textarea {
+    padding: 11px 10px;
+    font-size: 11px;
+  }
+
+  form button {
+    font-size: 10px;
+    padding: 3px 0;
+    width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+
+  .sm-nav > .nav-links-div > div {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+
+  .name-role span {
+    font-size: 14px;
+  }
+
+  .name-role {
+    font-size: 12px;
+  }
+
+  .pjd-1 h2 {
+    font-size: 14px;
+  }
+
+  .pjd-2 .project-box {
+    width: 350px;
+    height: 170px;
+  }
+
+  .project-name .title {
+    font-size: 11px;
+  }
+
+  .project-name .role {
+    font-size: 9.5px;
+  }
+
+  .project-content {
+    font-size: 9.5px;
+    padding: 7px;
+    max-width: 190px;
+  }
+
+  .project-name {
+    padding: 0 0 0 11px;
+  }
+
+  .pjd-2 {
+    padding: 20px 0 2px 0;
+  }
+
+  .box .box-title {
+    font-size: 13px;
+    padding-bottom: 16px;
+    font-weight: 600;
+  }
+
+  .box .box-badges {
+    margin-left: 0;
+  }
+
+  form input,
+  form textarea {
+    padding: 9px 10px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 360px) {
+  .sm-nav > .nav-links-div > div {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+
+  .name-role span {
+    font-size: 12px;
+  }
+
+  .name-role {
+    font-size: 10px;
+  }
+
+  .profile-card {
+    width: 210px;
+  }
+
+  .profile-photo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .profile-name {
+    font-size: 16px;
+  }
+
+  .profile-role {
+    font-size: 9px;
+  }
+
+  .social-row {
+    font-size: 13px;
+  }
+
+  .c-2 h1 {
+    font-size: 30px;
+  }
+
+  .c-2 .sub {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 9px;
+  }
+
+  .description {
+    max-width: 95%;
+    font-size: 12px;
+  }
+
+  .pjd-1 h2 {
+    font-size: 13px;
+  }
+
+  .pjd-2 .project-box {
+    width: 300px;
+    height: 160px;
+  }
+
+  .project-name .title {
+    font-size: 10px;
+  }
+
+  .project-name .role {
+    font-size: 8.5px;
+  }
+
+  .project-content {
+    font-size: 9px;
+    padding: 5px;
+    max-width: 170px;
+  }
+
+  .project-name {
+    padding: 0 0 0 7px;
+  }
+
+  .pjd-2 {
+    padding: 10px 0 0 0;
+  }
+
+  .box h1 {
+    font-size: 17px;
+    padding: 8px 0;
+  }
+
+  .box .box-title {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+
+  .box-badges > div {
+    padding: 17px 0;
+    font-size: 11px;
+  }
+
+  form input,
+  form textarea {
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 2560px) {
+  nav {
+    height: 85px;
+  }
+
+  :is(.sm-nav, nav) > .nav-links-div > div {
+    font-size: 18px;
+    padding: 5px 14px;
+  }
+
+  .name-role span {
+    font-size: 26px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .profile-card {
+    width: 310px;
+    padding: 60px 100px;
+  }
+
+  .profile-photo {
+    width: 260px;
+    height: 260px;
+  }
+
+  .profile-name {
+    font-size: 30px;
+  }
+
+  .profile-role {
+    font-size: 20px;
+  }
+
+  .social-row {
+    font-size: 30px;
+  }
+
+  .c-2 h1 {
+    font-size: 60px;
+  }
+
+  .c-2 .sub {
+    font-size: 44px;
+  }
+
+  .btn {
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+
+  .description {
+    max-width: 95%;
+    font-size: 25px;
+  }
+
+  .pjd-1 h2 {
+    font-size: 35px;
+  }
+
+  .pjd-2 .project-box {
+    width: 700px;
+    height: 350px;
+  }
+
+  .project-name .title {
+    font-size: 25px;
+  }
+
+  .project-name .role {
+    font-size: 20px;
+  }
+
+  .project-content {
+    font-size: 21px;
+    padding: 15px;
+    max-width: 400px;
+  }
+
+  .box h1 {
+    font-size: 32px;
+    padding: 25px 0;
+  }
+
+  .box .box-title {
+    font-size: 23px;
+  }
+
+  .box-badges > div {
+    padding: 35px 0;
+    font-size: 23px;
+  }
+
+  .contact-headline h1 {
+    font-size: 45px;
+  }
+
+  .encourage-text {
+    font-size: 25px;
+  }
+
+  .contact-details-box {
+    height: 930px;
+  }
+
+  .contact-box {
+    margin: 25px 0;
+  }
+
+  .contact-div {
+    width: 620px;
+    padding: 10px 0;
+    height: 100%;
+  }
+
+  .contact-div > span {
+    height: 80px;
+    margin-right: 30px;
+  }
+
+  .contact-div > .sign {
+    padding: 0 35px;
+  }
+
+  .contact-div > .sign i {
+    font-size: 32px;
+  }
+
+  .contact-div p {
+    font-size: 22px;
+  }
+
+  .message-box .message h2 {
+    font-size: 30px;
+  }
+
+  form .row {
+    gap: 80px;
+  }
+
+  form .field {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  form label {
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 17px;
+    border-radius: 8px;
+    font-size: 23px;
+  }
+
+  form button {
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    height: 60px;
+    margin-top: 30px;
+  }
+
+  .message-box span {
+    width: 2px;
+    height: 100%;
+  }
+
+  .follow-me h2 {
+    font-size: 27px;
+    margin-top: 40px;
+  }
+
+  .follow-links-box {
+    padding: 0 15px;
+    height: 550px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .link-box {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  .link-box i {
+    font-size: 30px;
+  }
+}
