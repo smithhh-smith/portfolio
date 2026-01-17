@@ -1,7 +1,82 @@
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import gsap from 'gsap';
 import './AboutMe.css';
 
 export function AboutMe() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    gsap.set('.c-1', { opacity: 0, scale: 0.95 });
+    gsap.set('.profile-card-wrapper', { opacity: 0, x: -100 });
+    gsap.set('.c-2 h1', { opacity: 0, y: 30 });
+    gsap.set('.c-2 .sub', { opacity: 0, y: 20 });
+    gsap.set('.btn-group', { opacity: 0, y: 20 });
+    gsap.set('.description', { opacity: 0, y: 20 });
+
+    const tl = gsap.timeline();
+
+    tl.to('.c-1', {
+      opacity: 1,
+      scale: 1,
+      duration: 1,
+      ease: 'power3.out'
+    }, 0);
+
+    tl.to('.profile-card-wrapper', {
+      opacity: 1,
+      x: 0,
+      duration: 1,
+      ease: 'power3.out'
+    }, 0.2);
+
+    tl.to('.c-2 h1', {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out'
+    }, 0.4);
+
+    tl.to('.c-2 .sub', {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out'
+    }, 0.6);
+
+    tl.to('.btn-group', {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out'
+    }, 0.8);
+
+    tl.to('.description', {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      stagger: 0.2,
+      ease: 'power3.out'
+    }, 1);
+  }, []);
+
+  const handleNavigate = (to) => {
+    const exitTl = gsap.timeline();
+
+    exitTl.to(['.c-1', '.profile-card-wrapper', '.c-2 h1', '.c-2 .sub', '.btn-group', '.description'], {
+      opacity: 0,
+      y: -20,
+      duration: 0.5,
+      stagger: 0.05,
+      ease: 'power3.in'
+    });
+
+    exitTl.then(() => {
+      navigate(to);
+    });
+  };
+
   return (
     <>
       <div className="content-div">
@@ -35,8 +110,8 @@ export function AboutMe() {
           <p className="sub">Here's who I am & what I do</p>
 
           <div className="btn-group">
-            <Link to="/resume" className="btn resume">RESUME</Link>
-            <Link to="/projects" className="btn projects">PROJECTS</Link>
+            <button onClick={() => handleNavigate('/resume')} className="btn resume">RESUME</button>
+            <button onClick={() => handleNavigate('/projects')} className="btn projects">PROJECTS</button>
           </div>
 
           <p className="description">

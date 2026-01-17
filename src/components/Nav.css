@@ -73,8 +73,14 @@ nav > .nav-links-div {
   transition: var(--transition);
 }
 
-:is(.sm-nav, nav) > .nav-links-div > .nav-link.active,
-:is(.sm-nav, nav) > .nav-links-div > div.active {
+.sm-nav > .nav-links-div > .nav-link.active,
+.sm-nav > .nav-links-div > div.active {
+  color: var(--p1);
+  font-weight: 600;
+}
+
+nav > .nav-links-div > .nav-link.active,
+nav > .nav-links-div > div.active {
   color: var(--bg);
 }
 

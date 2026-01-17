@@ -1,10 +1,51 @@
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import gsap from 'gsap';
 import { FollowMe } from './FollowMe';
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 import './Contact.css';
 
 export function Contact() {
+  const navigate = useNavigate();
   const formRef = useRef();
+
+  useEffect(() => {
+    gsap.set('.contact-headline', { opacity: 0, y: 30 });
+    gsap.set('.contact-details-box', { opacity: 0, scale: 0.95 });
+
+    const tl = gsap.timeline();
+
+    tl.to('.contact-headline', {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out'
+    }, 0);
+
+    tl.to('.contact-details-box', {
+      opacity: 1,
+      scale: 1,
+      duration: 1,
+      ease: 'power3.out'
+    }, 0.2);
+  }, []);
+
+  const handleNavigate = (to) => {
+    const exitTl = gsap.timeline();
+
+    exitTl.to(['.contact-headline', '.contact-details-box'], {
+      opacity: 0,
+      y: -20,
+      duration: 0.5,
+      stagger: 0.1,
+      ease: 'power3.in'
+    });
+
+    exitTl.then(() => {
+      navigate(to);
+    });
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();

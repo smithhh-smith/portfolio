@@ -1,8 +1,41 @@
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import gsap from 'gsap';
 import './Projects.css';
 import hms from '../assets/hms.jpeg';
 import { ProjectBox } from './ProjectBox';
 
 export function Projects() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    gsap.set('.projects-div', { opacity: 0, scale: 0.95 });
+
+    const tl = gsap.timeline();
+
+    tl.to('.projects-div', {
+      opacity: 1,
+      scale: 1,
+      duration: 1,
+      ease: 'power3.out'
+    }, 0);
+  }, []);
+
+  const handleNavigate = (to) => {
+    const exitTl = gsap.timeline();
+
+    exitTl.to('.projects-div', {
+      opacity: 0,
+      y: -20,
+      duration: 0.5,
+      ease: 'power3.in'
+    });
+
+    exitTl.then(() => {
+      navigate(to);
+    });
+  };
+
   return (
     <>
       <div className="projects-div">
