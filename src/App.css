@@ -3,6 +3,14 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 97.5vh;
   padding: 10px;
+}
+
+.about-me-bg {
+  background: var(--bg);
+}
+
+.not-about-me-bg {
+  background: var(--w1);
 }

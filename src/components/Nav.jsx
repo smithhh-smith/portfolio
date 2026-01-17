@@ -3,7 +3,7 @@ import './Nav.css';
 
 function Nav() {
   const links = [
-    { to: '/about', label: 'About me' },
+    { to: '/about-me', label: 'About me' },
     { to: '/resume', label: 'Resume' },
     { to: '/projects', label: 'Projects' },
     { to: '/contact', label: 'Contact' }
@@ -35,7 +35,9 @@ function Nav() {
         {renderLinks()}
       </nav>
 
-      <div className="sm-nav">{renderLinks()}</div>
+      <div className="sm-nav">
+        {renderLinks()}
+      </div>
     </>
   );
 }

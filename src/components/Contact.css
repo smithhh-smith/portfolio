@@ -125,6 +125,10 @@ body {
   height: 100%;
 }
 
+.follow-me-sm {
+  width: 100%;
+}
+
 form {
   width: 100%;
 }
@@ -197,7 +201,7 @@ form button:hover {
   transform: scale(0.95);
 }
 
-:is(.follow-me, .follow-me-mb) h2 {
+:is(.follow-me, .follow-me-mb, .follow-me-sm) h2 {
   text-align: center;
   color: var(--fc2);
   font-weight: 600;
@@ -215,9 +219,34 @@ form button:hover {
   place-items: center;
 }
 
+.follow-me-sm {
+  display: none;
+  margin-top: 10px;
+}
+
+.follow-me-sm > .follow-links-box-sm {
+  padding: 15px 0;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  opacity: 0.7;
+  box-shadow: var(--shadow-1);
+  margin-bottom: 20px;
+}
+
 .follow-links-box::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+:is(.follow-links-box-sm, .follow-links-box) > a {
+  text-decoration: none;
 }
 
 .link-box {

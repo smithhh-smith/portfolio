@@ -10,26 +10,42 @@ import './App.css';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
+
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, [pathname]);
+
   return null;
+}
+
+function AppLayout() {
+  const { pathname } = useLocation();
+
+  const isAboutPage = pathname === "/about-me";
+
+  return (
+    <div
+      className={`container ${isAboutPage ? "about-me-bg" : "not-about-me-bg"
+        }`}
+    >
+      <Nav />
+      <ScrollToTop />
+
+      <Routes>
+        <Route path="/" element={<Navigate to="/about-me" replace />} />
+        <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </div>
+  );
 }
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="container">
-        <Nav />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Navigate to="/about" replace />} />
-          <Route path="/about" element={<AboutMe />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
+      <AppLayout />
     </BrowserRouter>
   );
 }

@@ -8,6 +8,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
+  position: sticky;
+  top: 10px;
+  z-index: 99;
 }
 
 nav > div {
@@ -29,15 +32,28 @@ nav > .nav-links-div {
   display: none;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 80px;
+  bottom: 20px;
+  border-radius: 5px;
+  padding: 10px 0;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 99;
 }
 
-:is(.sm-nav, nav) > .nav-links-div > .nav-link {
+:is(.sm-nav, nav) > .nav-links-div > .nav-link,
+:is(.sm-nav, nav) > .nav-links-div > div {
   color: var(--fc2);
   margin: 0 5px;
   padding: 3px 10px;
   font-size: 14px;
   font-weight: 500;
   transition: var(--transition);
+}
+
+:is(.sm-nav, nav) > .nav-links-div > .nav-link {
   background: transparent;
   border: none;
   font-family: inherit;
@@ -50,19 +66,15 @@ nav > .nav-links-div {
   color: var(--bg);
 }
 
-:is(.sm-nav, nav) > .nav-links-div > .nav-link:hover {
+:is(.sm-nav, nav) > .nav-links-div > .nav-link:hover,
+:is(.sm-nav, nav) > .nav-links-div > div:hover {
   color: var(--bg);
   cursor: pointer;
   transition: var(--transition);
 }
 
-.sm-nav > .nav-links-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-:is(.sm-nav, nav) > .nav-links-div > .nav-link.active {
+:is(.sm-nav, nav) > .nav-links-div > .nav-link.active,
+:is(.sm-nav, nav) > .nav-links-div > div.active {
   color: var(--bg);
 }
 

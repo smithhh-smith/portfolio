@@ -758,13 +758,12 @@
     flex-direction: column;
     height: auto;
     width: 100%;
-    margin: 20px 0 0 0;
     gap: 25px;
   }
 
   .c-1,
   .c-2 {
-    width: 100%;
+    width: auto;
   }
 
   .c-1 {
@@ -889,6 +888,19 @@
 
   .contact-box {
     display: none;
+  }
+
+  .follow-me-sm {
+    display: block;
+  }
+
+  .follow-links-box-sm > .link-box {
+    width: 46px;
+    height: 46px;
+  }
+
+  .follow-links-box-sm > .link-box i {
+    font-size: 15px;
   }
 
   .message-box {
@@ -1048,6 +1060,15 @@
     padding: 3px 0;
     width: 140px;
   }
+
+  .follow-links-box-sm > .link-box {
+    width: 42px;
+    height: 42px;
+  }
+
+  .follow-links-box-sm > .link-box i {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1113,6 +1134,15 @@
   form textarea {
     padding: 9px 10px;
     font-size: 11px;
+  }
+
+  .follow-links-box-sm > .link-box {
+    width: 40px;
+    height: 40px;
+  }
+
+  .follow-links-box-sm > .link-box i {
+    font-size: 13px;
   }
 }
 
@@ -1219,6 +1249,15 @@
   form textarea {
     padding: 8px 10px;
     font-size: 11px;
+  }
+
+  .follow-links-box-sm > .link-box {
+    width: 38px;
+    height: 38px;
+  }
+
+  .follow-links-box-sm > .link-box i {
+    font-size: 12px;
   }
 }
 
